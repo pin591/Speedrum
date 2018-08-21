@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		36ECCA307E833558A6A2B0CA /* Pods_Speedrum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9A1E68BC8ECEF57675AAF1 /* Pods_Speedrum.framework */; };
 		921B51AD21270DCC009E0CD2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B51AC21270DCC009E0CD2 /* DetailViewController.swift */; };
-		921B51B021289257009E0CD2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B51AF21289257009E0CD2 /* Player.swift */; };
 		928C9C97212468FA0080566D /* dtos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928C9C96212468FA0080566D /* dtos.swift */; };
 		928C9C99212469B20080566D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928C9C98212469B20080566D /* Game.swift */; };
 		92ECF70F2124362800B37A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECF70E2124362800B37A89 /* AppDelegate.swift */; };
@@ -23,7 +22,6 @@
 /* Begin PBXFileReference section */
 		041EC948FF0E5F8C8F459CE5 /* Pods-Speedrum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speedrum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Speedrum/Pods-Speedrum.debug.xcconfig"; sourceTree = "<group>"; };
 		921B51AC21270DCC009E0CD2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		921B51AF21289257009E0CD2 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		928C9C96212468FA0080566D /* dtos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtos.swift; sourceTree = "<group>"; };
 		928C9C98212469B20080566D /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		92ECF70B2124362800B37A89 /* Speedrum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speedrum.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				928C9C98212469B20080566D /* Game.swift */,
-				921B51AF21289257009E0CD2 /* Player.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -253,7 +250,6 @@
 				928C9C99212469B20080566D /* Game.swift in Sources */,
 				92ECF70F2124362800B37A89 /* AppDelegate.swift in Sources */,
 				921B51AD21270DCC009E0CD2 /* DetailViewController.swift in Sources */,
-				921B51B021289257009E0CD2 /* Player.swift in Sources */,
 				92ECF7172124362800B37A89 /* Speedrum.xcdatamodeld in Sources */,
 				928C9C97212468FA0080566D /* dtos.swift in Sources */,
 			);
