@@ -1,0 +1,6 @@
+framework module Pods_Speedrum {
+  umbrella header "Pods-Speedrum-umbrella.h"
+
+  export *
+  module * { export * }
+}
